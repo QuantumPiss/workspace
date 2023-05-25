@@ -1,0 +1,35 @@
+# Ignore Visual Studio Code artifacts
+.vscode/
+
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore .env files
+.env
+
+# Ignore PDF and EPUB files
+*.pdf
+*.epub
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Virtual environment
+venv/
+.venv/
+env/
